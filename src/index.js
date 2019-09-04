@@ -1,3 +1,4 @@
-import Backbone from 'backbone';
+// import Backbone from 'backbone';
+import test from './template/test.template.html';
 
-console.log(Backbone);
+console.log(test({ name: 'Julia'}));

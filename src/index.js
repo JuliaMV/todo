@@ -1,4 +1,8 @@
-// import Backbone from 'backbone';
-import test from './template/test.template.html';
+import AppView from './views/AppView';
 
-console.log(test({ name: 'Julia'}));
+
+// import Backbone from 'backbone';
+// import test from './template/test.template.html';
+
+// console.log(test({ name: 'Julia' }));
+const app = new AppView();
